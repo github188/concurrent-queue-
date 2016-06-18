@@ -19,6 +19,6 @@
 
  $(CC)  -o  test $(CFLAGS) test.c twolock.c -lpthread
  
-3.其中twolock为two locks algorith实现的头文件,nonblock为none blocking算法，我们自己定义了CAS锁
+3. 其中twolock为two locks algorith实现的头文件,nonblock为none blocking算法，我们自己定义了CAS锁
 
 4. 通过条件编译实现这两种锁的分别测试
